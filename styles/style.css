@@ -54,7 +54,7 @@ body, section {
   width: 388px;
   left: 64px;
   bottom: 30px;
-  z-index: 1;
+  z-index: 3;
   font-size: 18px;
   line-height: 25px;
   margin: 0;
