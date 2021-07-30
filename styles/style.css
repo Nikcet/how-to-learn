@@ -20,6 +20,11 @@ body, section {
   top: 30px;
   left: 64px;
   z-index: 1;
+  height: 32px;
+}
+
+.ligi_place_footer {
+  height: 35px;
 }
 
 /* Начало блока header */
@@ -39,7 +44,7 @@ body, section {
   margin-left: 64px;
   font-size: 102px;
   line-height: 96px;
-  font-weight: normal;
+  font-weight: bolder;
   position: relative;
   z-index: 3;
 }
@@ -52,6 +57,7 @@ body, section {
   z-index: 1;
   font-size: 18px;
   line-height: 25px;
+  margin: 0;
 }
 
 .header__link {
@@ -82,7 +88,7 @@ body, section {
 /* Начало блока description */
 
 .description {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -103,7 +109,7 @@ body, section {
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  margin: 5px;
+  margin: 0;
 }
 
 .two-columns__paragraph {
@@ -152,16 +158,10 @@ body, section {
   display: flex;
   width: 1100px;
   margin: 0 auto;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0;
 }
-
-/* .table__row {
-  display: flex;
-  margin-top: 60px;
-  justify-content: space-between;
-} */
 
 .table__cell {
   width: 250px;
@@ -173,7 +173,7 @@ body, section {
 }
 
 .table__heading {
-  margin-bottom: 20px;
+  margin-bottom: 0;
   margin-top: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -185,11 +185,7 @@ body, section {
   font-size: 18px;
   font-weight: 500;
   margin: 0;
-}
-
-.table__bank {
   margin-top: 20px;
-  display: block;
 }
 
 /* Конец блока digits  */
@@ -198,7 +194,10 @@ body, section {
 
 .feynman {
   position: relative;
-  min-height: 790px;
+  min-height: 890px;
+  background-color: #f2f2f2;
+  z-index: 0;
+  padding: 100px 0;
 }
 
 .feynman__title {
@@ -216,6 +215,7 @@ body, section {
   font-size: 36px;
   font-weight: normal;
   text-align: center;
+  margin: 0;
 }
 
 .feynman__link {
@@ -234,6 +234,8 @@ body, section {
   z-index: -1;
   bottom: 0;
   left: 0;
+  width: 867px;
+  height: 637px;
 }
 
 /* Конец блока feynman  */
@@ -261,6 +263,7 @@ body, section {
   z-index: 0;
   top: 0;
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
 }
 
 .table__cell_theme_dark {
@@ -317,6 +320,7 @@ body, section {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
@@ -326,10 +330,6 @@ body, section {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
-
-.footer__column-link:last-child {
-  margin-bottom: 16px;
 }
 
 .footer__column-heading {
