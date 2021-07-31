@@ -1,9 +1,3 @@
-body, section {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -23,13 +17,14 @@ body, section {
   height: 32px;
 }
 
-.ligi_place_footer {
+.logo_place_footer {
   height: 35px;
 }
 
 /* Начало блока header */
 
 .header {
+  margin: 0;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
@@ -70,6 +65,7 @@ body, section {
   right: 0;
   bottom: 0;
   width: 765px;
+  height: 608px;
   z-index: 2;
 }
 
@@ -89,6 +85,7 @@ body, section {
 
 .description {
   padding-top: 100px;
+  margin: 0;
 }
 
 .two-columns {
@@ -133,6 +130,7 @@ body, section {
 
 .digits {
   padding: 100px 0;
+  margin: 0;
 }
 
 .section-title {
@@ -198,6 +196,7 @@ body, section {
   background-color: #f2f2f2;
   z-index: 0;
   padding: 100px 0;
+  margin: 0;
 }
 
 .feynman__title {
@@ -247,6 +246,7 @@ body, section {
   position: relative;
   padding: 90px 0;
   overflow: hidden;
+  margin: 0;
 }
 
 .section-title_theme_dark, .section-subtitle_theme_dark {
@@ -283,6 +283,7 @@ body, section {
   background-color: #1f1f1f;
   min-height: 350px;
   padding: 60px 0 40px;
+  margin: 0;
 }
 
 .footer__columns {
