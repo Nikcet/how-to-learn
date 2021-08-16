@@ -1,9 +1,9 @@
-.header__link {
+.resources__logo-zone_link {
   text-decoration: none;
-  color: #2f80ed;
   opacity: 1;
   transition: opacity 0.2s linear;
 }
-.header__link:hover {
+
+.resources__logo-zone_link:hover {
   opacity: 0.6;
 }

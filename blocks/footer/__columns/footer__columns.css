@@ -3,5 +3,5 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  min-height: inherit;
+  min-height: 250px;
 }

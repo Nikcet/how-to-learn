@@ -71,25 +71,23 @@
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
           </div>
+
         </div>
       </section>
 
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframe">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-        <div class="video__iframe">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </section>
+        </div>
+
 
       <section class="oakley">
         <div class="two-columns">
@@ -158,15 +156,16 @@
       <section class="khan">
         <div class="khan__container">
           <h3 class="khan__author">Салман Хан</h3>
-          <h4 class="khan__title">Весь мир — школа</h4>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <blockqoute class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+            всему
             миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockqoute>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__qoute-author-subline">Кинорежиссер, продюсер</p>
-          <div class="book__container">
-            <img src="./images/khan-book.jpg" alt="Изображение: 'Весь мир - школа.' Салман Хан" class="book-pic">
-            <a href="#" class="buy-link">Купить книгу &rarr;</a>
+          <div class="khan__book-container">
+            <img src="./images/khan-book.jpg" alt="Изображение: 'Весь мир - школа.' Салман Хан" class="khan__book-pic">
+            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -225,12 +224,16 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="./images/logo/resources-arzamas.svg" alt="Arzamas лого" class="resources__logo">
-          <img src="./images/logo/resources-n1.svg" alt="N+1 лого" class="resources__logo">
-          <img src="./images/logo/resources-strelka.svg" alt="STRELKA лого" class="resources__logo">
-          <img src="./images/logo/resources-polka.svg" alt="Полка лого" class="resources__logo">
-        </div>
+        <ol class="resources__logo-zone">
+          <a href="" class="resources__logo-zone_link"><img src="./images/logo/resources-arzamas.svg" alt="Arzamas лого"
+              class="resources__logo"></a>
+          <a href="" class="resources__logo-zone_link"><img src="./images/logo/resources-n1.svg" alt="N+1 лого"
+              class="resources__logo"></a>
+          <a href="" class="resources__logo-zone_link"><img src="./images/logo/resources-strelka.svg" alt="STRELKA лого"
+              class="resources__logo"></a>
+          <a href="" class="resources__logo-zone_link"><img src="./images/logo/resources-polka.svg" alt="Полка лого"
+              class="resources__logo"></a>
+        </ol>
       </section>
 
     </main>

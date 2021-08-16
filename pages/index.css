@@ -35,6 +35,7 @@
 /* Начало блока video */
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
 /* Конец блока video */
 /* Начало блока oakley */
 @import url(../blocks/oaklye/oakley.css);
@@ -47,14 +48,15 @@
 @import url(../blocks/khan/__qoute/khan__qoute.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
-@import url(../blocks/book/__container/book__container.css);
-@import url(../blocks/book/book-pic.css);
-@import url(../blocks/book/buy-link.css);
+@import url(../blocks/khan/__book-container/khan__book-container.css);
+@import url(../blocks/khan/__book-pic/khan__book-pic.css);
+@import url(../blocks/khan/__buy-link/khan__buy-link.css);
 /* Конец блока khan */
 /* Начало блока resources */
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo-zone/__link/resources__logo-zone_link.css);
 /* Конец блока resources */
 /* Блок digits  */
 @import url(../blocks/digits/digits.css);
