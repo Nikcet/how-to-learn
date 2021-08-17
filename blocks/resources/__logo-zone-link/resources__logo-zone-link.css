@@ -1,9 +1,9 @@
-.resources__logo-zone_link {
+.resources__logo-zone-link {
   text-decoration: none;
   opacity: 1;
   transition: opacity 0.2s linear;
 }
 
-.resources__logo-zone_link:hover {
+.resources__logo-zone-link:hover {
   opacity: 0.6;
 }
